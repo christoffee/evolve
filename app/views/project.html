@@ -1,0 +1,75 @@
+<div class="container">
+  <div id="wrapper" ng-class="{toggled: toggled}">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">Dashboard Menu</li>
+            <li>
+                <a href="#">Overview</a>
+            </li>
+            <li>
+                <a href="#">Visualize</a>
+            </li>
+            <li>
+                <a href="#">Add Entry</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <a ng-click="toggleMenu()" class="btn btn-default btn-lg" id="menu-toggle"><span class="glyphicon glyphicon-th-list"></span></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                          <!-- <thead>
+                            <tr>
+                              <th>#</th>
+                              <th>Header</th>
+                              <th>Header</th>
+                            </tr>
+                          </thead> -->
+                          <tbody>
+                            <tr>
+                              <td><p><span class="label label-default">Title</span></p></td>
+                              <td>{{project.name}}</td>
+                              <td><a href="">Edit</a></td>
+                            </tr>
+                            <tr>
+                              <td><p><span class="label label-default">{{project.DeadlineType}}</span></p></td>
+                              <td>{{project.Deadline | date}}</td>
+                              <td><a href="">Edit</a></td>
+                            </tr>
+                            <tr>
+                              <td><p><span class="label label-default">Type</span></p></td>
+                              <td>{{project.type}}</td>
+                              <td><a href="">Edit</a></td>
+                            </tr>
+                            <tr>
+                              <td><p><span class="label label-default">Overview</span></p></td>
+                              <td>{{project.overview}}</td>
+                              <td><a href="">Edit</a></td>
+                            </tr>
+                            <tr>
+                              <td><p><span class="label label-default">Tags</span></p></td>
+                              <td>{{project.tags}}</td>
+                              <td><a href="">Edit</a></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+  </div>
+</div>

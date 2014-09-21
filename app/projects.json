@@ -1,0 +1,49 @@
+{
+    "id": 1,
+    "name": "christoffee",
+    "projects": [
+        { 
+            "id": 1, 
+            "name": "Loose Weight",
+            "type": "Game",
+            "status": "inprogess",
+            "tags": "game",
+            "DeadlineType": "Deadline",
+            "Deadline": "09/16/2014",
+            "overview": "Marshmallow brownie sugar plum marzipan biscuit. Lemon drops carrot cake cupcake chocolate cake bonbon muffin soufflé chocolate cake. Ice cream dragée pastry donut. Chocolate bar gummi bears gummi bears sugar plum sweet.",
+            "entries": {
+                "entryDate": "09/16/2014",
+                "name": "Silly Gooses",
+                "type": "Game",
+                "status": "inprogess",
+                "tags": "game",
+                "DeadlineType": "Deadline",
+                "Deadline": "09/16/2014",
+                "overview": "Marshmallow brownie sugar plum marzipan biscuit. Lemon drops carrot cake cupcake chocolate cake bonbon muffin soufflé chocolate cake. Ice cream dragée pastry donut. Chocolate bar gummi bears gummi bears sugar plum sweet."
+                
+            }
+        },
+        { 
+            "id": 2, 
+            "name": "Improve Javscript Skills",
+            "type": "Web App",
+            "status": "inprogess",
+            "tags": "game",
+            "DeadlineType": "Deadline",
+            "Deadline": "09/16/2014",
+            "overview": "Caramels ice cream gummies. Jujubes lemon drops chocolate chupa chups dessert chocolate chocolate cake pastry. Apple pie danish bonbon muffin chocolate powder sesame snaps pastry. Lemon drops topping pastry sesame snaps dessert applicake jelly."
+
+        },
+        { 
+            "id": 3, 
+            "name": "Margaret",
+            "type": "Game",
+            "status": "inprogess",
+            "tags": "game",
+            "DeadlineType": "Deadline",
+            "Deadline": "09/16/2014",
+            "overview": "Dessert toffee pudding applicake pie. Tiramisu danish cookie. Cheesecake sweet apple pie."
+
+        }
+    ]
+}
